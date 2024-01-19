@@ -1,0 +1,25 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.bloque-1{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    border: 2px solid black;
+}
+
+.bloque-2{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    border: 2px solid black;
+    transition: background-color 0.5s;
+}
